@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "psyai-matrix"
+version = "0.1.0"
+description = ""
+authors = ["Oleksiy Levkovskyy <lex@sojourns.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matrix-nio = "^0.24.0"
+requests = "^2.31.0"
+supabase = "^2.3.4"
+python-dotenv = "^1.0.0"
+stripe = "^7.13.0"
+logging = "^0.4.9.6"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
